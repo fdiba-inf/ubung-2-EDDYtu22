@@ -7,7 +7,7 @@ public class PiApproximation {
         int a = (int) (Pi*10000);
         double b = (double) a/10000;
 
-        System.out.println("Pi:" + b);
+        System.out.println("Pi: " + b);
 
     }
 }
