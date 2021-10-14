@@ -20,6 +20,8 @@ public class DayOfWeek {
            System.out.println("Day of week: Saturday");
        } else if (day==7){
            System.out.println("Day of week: Sunday");
+       } else {
+           System.out.println("Invalid day");
        }
         }
 
