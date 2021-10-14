@@ -12,7 +12,7 @@ public class Circle {
         double Circumference = 2.0*Pi*radius;
         double area = Pi*radius*radius;
         System.out.println("Circumference: " + Circumference);
-        System.out.println("Area:" + area);
+        System.out.println("Area: " + area);
 
 
     }
