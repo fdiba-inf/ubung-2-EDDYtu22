@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class QuadraticEquation {
     public static void main(String[] args) {
-        System.out.println("Enter a,b,c: ");
-        System.out.print("a:");
+        //System.out.println("Enter a,b,c: ");
+        //System.out.print("a:");
         Scanner input = new Scanner(System.in);
         double a = input.nextDouble();
-        System.out.print("b:");
+        //System.out.print("b:");
         double b = input.nextDouble();
-        System.out.print("c:");
+        //System.out.print("c:");
         double c = input.nextDouble();
         double D = b*b - 4*a*c;
         if (D>0){
