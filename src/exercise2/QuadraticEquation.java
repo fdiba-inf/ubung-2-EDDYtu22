@@ -1,6 +1,6 @@
 package exercise2;
 
-
+import java.lang.Math;
 import java.util.Scanner;
 
 public class QuadraticEquation {
@@ -19,14 +19,14 @@ public class QuadraticEquation {
             if (D>=0){
                 double x1 = (-b + Math.sqrt(D))/2*a;
                 double x2 = (-b - Math.sqrt(D))/2*a;
-                System.out.println(x1);
-                System.out.println(x2);
+                System.out.println(x1 +", "+ x2);
+                //System.out.println(x2);
             } else {
                 System.out.println("Imaginary values");
             }
         }else {
             if (b!=0){
-            double x3 = (-b/2*a);
+            double x3 = -c/b;
                 System.out.println(x3);
         } else {
                 if (c!=0){
